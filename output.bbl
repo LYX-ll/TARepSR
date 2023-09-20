@@ -1,0 +1,586 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{35}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{EGVSR}
+\begin{bchapter}
+\bauthor{\bsnm{Cao}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{C.}},
+\bauthor{\bsnm{Song}, \binits{C.}},
+\bauthor{\bsnm{Tang}, \binits{Y.}},
+\bauthor{\bsnm{Li}, \binits{H.}}:
+\bctitle{Real-time super-resolution system of 4k-video based on deep learning}.
+In: \bbtitle{2021 IEEE 32nd International Conference on Application-specific
+  Systems, Architectures and Processors (ASAP)},
+pp. \bfpage{69}--\blpage{76}
+(\byear{2021}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 2
+\bibitem{mobile2}
+\begin{bchapter}
+\bauthor{\bsnm{Agustsson}, \binits{E.}},
+\bauthor{\bsnm{Timofte}, \binits{R.}}:
+\bctitle{Ntire 2017 challenge on single image super-resolution: Dataset and
+  study}.
+In: \bbtitle{Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition Workshops},
+pp. \bfpage{126}--\blpage{135}
+(\byear{2017})
+\end{bchapter}
+\endbibitem
+
+%%% 3
+\bibitem{mobile3}
+\begin{bchapter}
+\bauthor{\bsnm{Zhan}, \binits{Z.}},
+\bauthor{\bsnm{Gong}, \binits{Y.}},
+\bauthor{\bsnm{Zhao}, \binits{P.}},
+\bauthor{\bsnm{Yuan}, \binits{G.}},
+\bauthor{\bsnm{Niu}, \binits{W.}},
+\bauthor{\bsnm{Wu}, \binits{Y.}},
+\bauthor{\bsnm{Zhang}, \binits{T.}},
+\bauthor{\bsnm{Jayaweera}, \binits{M.}},
+\bauthor{\bsnm{Kaeli}, \binits{D.}},
+\bauthor{\bsnm{Ren}, \binits{B.}}, \betal:
+\bctitle{Achieving on-mobile real-time super-resolution with neural
+  architecture and pruning search}.
+In: \bbtitle{Proceedings of the IEEE/CVF International Conference on Computer
+  Vision},
+pp. \bfpage{4821}--\blpage{4831}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem{ARM}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{B.}},
+\oauthor{\bsnm{Lin}, \binits{M.}},
+\oauthor{\bsnm{Sheng}, \binits{K.}},
+\oauthor{\bsnm{Zhang}, \binits{M.}},
+\oauthor{\bsnm{Chen}, \binits{P.}},
+\oauthor{\bsnm{Li}, \binits{K.}},
+\oauthor{\bsnm{Cao}, \binits{L.}},
+\oauthor{\bsnm{Ji}, \binits{R.}}:
+Arm: Any-time super-resolution method.
+arXiv preprint arXiv:2203.10812
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem{mobile1}
+\begin{bchapter}
+\bauthor{\bsnm{Ignatov}, \binits{A.}},
+\bauthor{\bsnm{Timofte}, \binits{R.}},
+\bauthor{\bsnm{Denna}, \binits{M.}},
+\bauthor{\bsnm{Younes}, \binits{A.}}:
+\bctitle{Real-time quantized image super-resolution on mobile npus, mobile ai
+  2021 challenge: Report}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{2525}--\blpage{2534}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 6
+\bibitem{RealBasicVSR}
+\begin{bchapter}
+\bauthor{\bsnm{Chan}, \binits{K.C.}},
+\bauthor{\bsnm{Zhou}, \binits{S.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Loy}, \binits{C.C.}}:
+\bctitle{Investigating tradeoffs in real-world video super-resolution}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{5962}--\blpage{5971}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 7
+\bibitem{basicvsr++}
+\begin{bchapter}
+\bauthor{\bsnm{Chan}, \binits{K.C.}},
+\bauthor{\bsnm{Zhou}, \binits{S.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Loy}, \binits{C.C.}}:
+\bctitle{Basicvsr++: Improving video super-resolution with enhanced propagation
+  and alignment}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{5972}--\blpage{5981}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 8
+\bibitem{CBAM}
+\begin{bchapter}
+\bauthor{\bsnm{Woo}, \binits{S.}},
+\bauthor{\bsnm{Park}, \binits{J.}},
+\bauthor{\bsnm{Lee}, \binits{J.-Y.}},
+\bauthor{\bsnm{Kweon}, \binits{I.S.}}:
+\bctitle{Cbam: Convolutional block attention module}.
+In: \bbtitle{Proceedings of the European Conference on Computer Vision (ECCV)},
+pp. \bfpage{3}--\blpage{19}
+(\byear{2018})
+\end{bchapter}
+\endbibitem
+
+%%% 9
+\bibitem{DRRN}
+\begin{bchapter}
+\bauthor{\bsnm{Hui}, \binits{Z.}},
+\bauthor{\bsnm{Gao}, \binits{X.}},
+\bauthor{\bsnm{Yang}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{X.}}:
+\bctitle{Lightweight image super-resolution with information multi-distillation
+  network}.
+In: \bbtitle{Proceedings of the 27th Acm International Conference on
+  Multimedia},
+pp. \bfpage{2024}--\blpage{2032}
+(\byear{2019})
+\end{bchapter}
+\endbibitem
+
+%%% 10
+\bibitem{RCAN}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Wang}, \binits{L.}},
+\bauthor{\bsnm{Zhong}, \binits{B.}},
+\bauthor{\bsnm{Fu}, \binits{Y.}}:
+\bctitle{Image super-resolution using very deep residual channel attention
+  networks}.
+In: \bbtitle{Proceedings of the European Conference on Computer Vision (ECCV)},
+pp. \bfpage{286}--\blpage{301}
+(\byear{2018})
+\end{bchapter}
+\endbibitem
+
+%%% 11
+\bibitem{liu2022cross}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{A.}},
+\oauthor{\bsnm{Li}, \binits{S.}},
+\oauthor{\bsnm{Chang}, \binits{Y.}}:
+Cross-resolution feature attention network for image super-resolution.
+The Visual Computer,
+1--13
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem{yang2021image}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{X.}},
+\oauthor{\bsnm{Zhu}, \binits{Y.}},
+\oauthor{\bsnm{Guo}, \binits{Y.}},
+\oauthor{\bsnm{Zhou}, \binits{D.}}:
+An image super-resolution network based on multi-scale convolution fusion.
+The Visual Computer,
+1--11
+(2021)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{MFFN}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Xia}, \binits{R.}},
+\oauthor{\bsnm{Yang}, \binits{K.}},
+\oauthor{\bsnm{Zou}, \binits{K.}}:
+Mffn: image super-resolution via multi-level features fusion network.
+The Visual Computer,
+1--16
+(2023)
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem{RepVGG}
+\begin{bchapter}
+\bauthor{\bsnm{Ding}, \binits{X.}},
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Ma}, \binits{N.}},
+\bauthor{\bsnm{Han}, \binits{J.}},
+\bauthor{\bsnm{Ding}, \binits{G.}},
+\bauthor{\bsnm{Sun}, \binits{J.}}:
+\bctitle{Repvgg: Making vgg-style convnets great again}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{13733}--\blpage{13742}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 15
+\bibitem{ACnet}
+\begin{bchapter}
+\bauthor{\bsnm{Ding}, \binits{X.}},
+\bauthor{\bsnm{Guo}, \binits{Y.}},
+\bauthor{\bsnm{Ding}, \binits{G.}},
+\bauthor{\bsnm{Han}, \binits{J.}}:
+\bctitle{Acnet: Strengthening the kernel skeletons for powerful cnn via
+  asymmetric convolution blocks}.
+In: \bbtitle{Proceedings of the IEEE/CVF International Conference on Computer
+  Vision},
+pp. \bfpage{1911}--\blpage{1920}
+(\byear{2019})
+\end{bchapter}
+\endbibitem
+
+%%% 16
+\bibitem{DBB}
+\begin{bchapter}
+\bauthor{\bsnm{Ding}, \binits{X.}},
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Han}, \binits{J.}},
+\bauthor{\bsnm{Ding}, \binits{G.}}:
+\bctitle{Diverse branch block: Building a convolution as an inception-like
+  unit}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{10886}--\blpage{10895}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 17
+\bibitem{Dyrep}
+\begin{bchapter}
+\bauthor{\bsnm{Huang}, \binits{T.}},
+\bauthor{\bsnm{You}, \binits{S.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Du}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{F.}},
+\bauthor{\bsnm{Qian}, \binits{C.}},
+\bauthor{\bsnm{Xu}, \binits{C.}}:
+\bctitle{Dyrep: Bootstrapping training with dynamic re-parameterization}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{588}--\blpage{597}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 18
+\bibitem{RepBN}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Dong}, \binits{C.}},
+\oauthor{\bsnm{Shan}, \binits{Y.}}:
+Repsr: Training efficient vgg-style super-resolution networks with structural
+  re-parameterization and batch normalization.
+arXiv preprint arXiv:2205.05671
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem{ECB}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Zeng}, \binits{H.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}}:
+\bctitle{Edge-oriented convolution block for real-time super resolution on
+  mobile devices}.
+In: \bbtitle{Proceedings of the 29th ACM International Conference on
+  Multimedia},
+pp. \bfpage{4034}--\blpage{4043}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 20
+\bibitem{EDBB}
+\begin{bchapter}
+\bauthor{\bsnm{Wang}, \binits{Y.}}:
+\bctitle{Edge-enhanced feature distillation network for efficient
+  super-resolution}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{777}--\blpage{785}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 21
+\bibitem{OREPA}
+\begin{bchapter}
+\bauthor{\bsnm{Hu}, \binits{M.}},
+\bauthor{\bsnm{Feng}, \binits{J.}},
+\bauthor{\bsnm{Hua}, \binits{J.}},
+\bauthor{\bsnm{Lai}, \binits{B.}},
+\bauthor{\bsnm{Huang}, \binits{J.}},
+\bauthor{\bsnm{Gong}, \binits{X.}},
+\bauthor{\bsnm{Hua}, \binits{X.-S.}}:
+\bctitle{Online convolutional re-parameterization}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{568}--\blpage{577}
+(\byear{2022})
+\end{bchapter}
+\endbibitem
+
+%%% 22
+\bibitem{SMSR}
+\begin{bchapter}
+\bauthor{\bsnm{Wang}, \binits{L.}},
+\bauthor{\bsnm{Dong}, \binits{X.}},
+\bauthor{\bsnm{Wang}, \binits{Y.}},
+\bauthor{\bsnm{Ying}, \binits{X.}},
+\bauthor{\bsnm{Lin}, \binits{Z.}},
+\bauthor{\bsnm{An}, \binits{W.}},
+\bauthor{\bsnm{Guo}, \binits{Y.}}:
+\bctitle{Exploring sparsity in image super-resolution for efficient inference}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{4917}--\blpage{4926}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+%%% 23
+\bibitem{Div2K}
+\begin{bchapter}
+\bauthor{\bsnm{Timofte}, \binits{R.}},
+\bauthor{\bsnm{Agustsson}, \binits{E.}},
+\bauthor{\bsnm{Van~Gool}, \binits{L.}},
+\bauthor{\bsnm{Yang}, \binits{M.-H.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}}:
+\bctitle{Ntire 2017 challenge on single image super-resolution: Methods and
+  results}.
+In: \bbtitle{Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition Workshops},
+pp. \bfpage{114}--\blpage{125}
+(\byear{2017})
+\end{bchapter}
+\endbibitem
+
+%%% 24
+\bibitem{RepOpt}
+\begin{botherref}
+\oauthor{\bsnm{Ding}, \binits{X.}},
+\oauthor{\bsnm{Chen}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}},
+\oauthor{\bsnm{Huang}, \binits{K.}},
+\oauthor{\bsnm{Han}, \binits{J.}},
+\oauthor{\bsnm{Ding}, \binits{G.}}:
+Re-parameterizing your optimizers rather than architectures.
+arXiv preprint arXiv:2205.15242
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem{BN}
+\begin{bchapter}
+\bauthor{\bsnm{Ioffe}, \binits{S.}},
+\bauthor{\bsnm{Szegedy}, \binits{C.}}:
+\bctitle{Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift}.
+In: \bbtitle{International Conference on Machine Learning},
+pp. \bfpage{448}--\blpage{456}
+(\byear{2015}).
+\bcomment{PMLR}
+\end{bchapter}
+\endbibitem
+
+%%% 26
+\bibitem{set5}
+\begin{botherref}
+\oauthor{\bsnm{Bevilacqua}, \binits{M.}},
+\oauthor{\bsnm{Roumy}, \binits{A.}},
+\oauthor{\bsnm{Guillemot}, \binits{C.}},
+\oauthor{\bsnm{Alberi-Morel}, \binits{M.L.}}:
+Low-complexity single-image super-resolution based on nonnegative neighbor
+  embedding
+(2012)
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem{set14}
+\begin{bchapter}
+\bauthor{\bsnm{Zeyde}, \binits{R.}},
+\bauthor{\bsnm{Elad}, \binits{M.}},
+\bauthor{\bsnm{Protter}, \binits{M.}}:
+\bctitle{On single image scale-up using sparse-representations}.
+In: \bbtitle{International Conference on Curves and Surfaces},
+pp. \bfpage{711}--\blpage{730}
+(\byear{2010}).
+\bcomment{Springer}
+\end{bchapter}
+\endbibitem
+
+%%% 28
+\bibitem{urban100}
+\begin{bchapter}
+\bauthor{\bsnm{Huang}, \binits{J.-B.}},
+\bauthor{\bsnm{Singh}, \binits{A.}},
+\bauthor{\bsnm{Ahuja}, \binits{N.}}:
+\bctitle{Single image super-resolution from transformed self-exemplars}.
+In: \bbtitle{Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition},
+pp. \bfpage{5197}--\blpage{5206}
+(\byear{2015})
+\end{bchapter}
+\endbibitem
+
+%%% 29
+\bibitem{div8k}
+\begin{bchapter}
+\bauthor{\bsnm{Gu}, \binits{S.}},
+\bauthor{\bsnm{Lugmayr}, \binits{A.}},
+\bauthor{\bsnm{Danelljan}, \binits{M.}},
+\bauthor{\bsnm{Fritsche}, \binits{M.}},
+\bauthor{\bsnm{Lamour}, \binits{J.}},
+\bauthor{\bsnm{Timofte}, \binits{R.}}:
+\bctitle{Div8k: Diverse 8k resolution image dataset}.
+In: \bbtitle{2019 IEEE/CVF International Conference on Computer Vision Workshop
+  (ICCVW)},
+pp. \bfpage{3512}--\blpage{3516}
+(\byear{2019}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 30
+\bibitem{adam}
+\begin{botherref}
+\oauthor{\bsnm{Kingma}, \binits{D.P.}},
+\oauthor{\bsnm{Ba}, \binits{J.}}:
+Adam: A method for stochastic optimization.
+arXiv preprint arXiv:1412.6980
+(2014)
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem{pytorch}
+\begin{botherref}
+\oauthor{\bsnm{Paszke}, \binits{A.}},
+\oauthor{\bsnm{Gross}, \binits{S.}},
+\oauthor{\bsnm{Chintala}, \binits{S.}},
+\oauthor{\bsnm{Chanan}, \binits{G.}},
+\oauthor{\bsnm{Yang}, \binits{E.}},
+\oauthor{\bsnm{DeVito}, \binits{Z.}},
+\oauthor{\bsnm{Lin}, \binits{Z.}},
+\oauthor{\bsnm{Desmaison}, \binits{A.}},
+\oauthor{\bsnm{Antiga}, \binits{L.}},
+\oauthor{\bsnm{Lerer}, \binits{A.}}:
+Automatic differentiation in pytorch
+(2017)
+\end{botherref}
+\endbibitem
+
+%%% 32
+\bibitem{FSRCNN}
+\begin{bchapter}
+\bauthor{\bsnm{Dong}, \binits{C.}},
+\bauthor{\bsnm{Loy}, \binits{C.C.}},
+\bauthor{\bsnm{Tang}, \binits{X.}}:
+\bctitle{Accelerating the super-resolution convolutional neural network}.
+In: \bbtitle{European Conference on Computer Vision},
+pp. \bfpage{391}--\blpage{407}
+(\byear{2016}).
+\bcomment{Springer}
+\end{bchapter}
+\endbibitem
+
+%%% 33
+\bibitem{CARN}
+\begin{bchapter}
+\bauthor{\bsnm{Ahn}, \binits{N.}},
+\bauthor{\bsnm{Kang}, \binits{B.}},
+\bauthor{\bsnm{Sohn}, \binits{K.-A.}}:
+\bctitle{Fast, accurate, and lightweight super-resolution with cascading
+  residual network}.
+In: \bbtitle{Proceedings of the European Conference on Computer Vision (ECCV)},
+pp. \bfpage{252}--\blpage{268}
+(\byear{2018})
+\end{bchapter}
+\endbibitem
+
+%%% 34
+\bibitem{EDSR}
+\begin{bchapter}
+\bauthor{\bsnm{Lim}, \binits{B.}},
+\bauthor{\bsnm{Son}, \binits{S.}},
+\bauthor{\bsnm{Kim}, \binits{H.}},
+\bauthor{\bsnm{Nah}, \binits{S.}},
+\bauthor{\bsnm{Mu~Lee}, \binits{K.}}:
+\bctitle{Enhanced deep residual networks for single image super-resolution}.
+In: \bbtitle{Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition Workshops},
+pp. \bfpage{136}--\blpage{144}
+(\byear{2017})
+\end{bchapter}
+\endbibitem
+
+%%% 35
+\bibitem{XLSR}
+\begin{bchapter}
+\bauthor{\bsnm{Ayazoglu}, \binits{M.}}:
+\bctitle{Extremely lightweight quantization robust real-time single-image super
+  resolution for mobile devices}.
+In: \bbtitle{Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition},
+pp. \bfpage{2472}--\blpage{2479}
+(\byear{2021})
+\end{bchapter}
+\endbibitem
+
+\end{thebibliography}
